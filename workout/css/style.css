@@ -1,0 +1,46 @@
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+}
+
+/* Estilize o cabeçalho, rodapé e outras partes do seu site aqui */
+
+/* Estilos para a seção de imagens */
+.image-container {
+    text-align: center; /* Centraliza as imagens na tela */
+}
+
+.image-container a {
+    display: block; /* Faz com que cada imagem ocupe a largura total da tela */
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 0; /* Remove o espaçamento entre as imagens */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para a seção de vídeo */
+.video-container {
+    text-align: center;
+}
+
+.video-container video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para telas menores (celulares) */
+@media (max-width: 768px) {
+    /* Adicione estilos específicos para telas menores, se necessário */
+}
